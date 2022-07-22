@@ -1,6 +1,5 @@
 package com.example.jogodavelha;
 
 public enum Jogador {
-    JOGADOR1,
-    JOGADOR2
+    JOGADOR_X,JOGADOR_O
 }

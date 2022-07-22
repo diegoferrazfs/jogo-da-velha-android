@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
-            android:onClick="reiniciarClick"
+            android:onClick="clickReiniciar"
             android:text="Reiniciar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -92,7 +92,7 @@
                 android:layout_weight="1"
                 android:insetLeft="0dp"
                 android:insetRight="6dp"
-                android:onClick="jogarClick"
+                android:onClick="clickJogar"
                 android:tag="0"
                 android:text="" />
 
@@ -103,7 +103,7 @@
                 android:layout_weight="1"
                 android:insetLeft="0dp"
                 android:insetRight="6dp"
-                android:onClick="jogarClick"
+                android:onClick="clickJogar"
                 android:tag="1"
                 android:text="" />
 
@@ -114,7 +114,7 @@
                 android:layout_weight="1"
                 android:insetLeft="0dp"
                 android:insetRight="0dp"
-                android:onClick="jogarClick"
+                android:onClick="clickJogar"
                 android:tag="2"
                 android:text="" />
         </TableRow>
@@ -131,7 +131,7 @@
                 android:layout_weight="1"
                 android:insetLeft="0dp"
                 android:insetRight="6dp"
-                android:onClick="jogarClick"
+                android:onClick="clickJogar"
                 android:tag="3"
                 android:text="" />
 
@@ -142,7 +142,7 @@
                 android:layout_weight="1"
                 android:insetLeft="0dp"
                 android:insetRight="6dp"
-                android:onClick="jogarClick"
+                android:onClick="clickJogar"
                 android:tag="4"
                 android:text="" />
 
@@ -153,7 +153,7 @@
                 android:layout_weight="1"
                 android:insetLeft="0dp"
                 android:insetRight="0dp"
-                android:onClick="jogarClick"
+                android:onClick="clickJogar"
                 android:tag="5"
                 android:text="" />
         </TableRow>
@@ -170,7 +170,7 @@
                 android:layout_weight="1"
                 android:insetLeft="0dp"
                 android:insetRight="6dp"
-                android:onClick="jogarClick"
+                android:onClick="clickJogar"
                 android:tag="6"
                 android:text="" />
 
@@ -181,7 +181,7 @@
                 android:layout_weight="1"
                 android:insetLeft="0dp"
                 android:insetRight="6dp"
-                android:onClick="jogarClick"
+                android:onClick="clickJogar"
                 android:tag="7"
                 android:text="" />
 
@@ -192,7 +192,7 @@
                 android:layout_weight="1"
                 android:insetLeft="0dp"
                 android:insetRight="0dp"
-                android:onClick="jogarClick"
+                android:onClick="clickJogar"
                 android:tag="8"
                 android:text="" />
         </TableRow>
