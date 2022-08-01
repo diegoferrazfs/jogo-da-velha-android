@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -36,8 +37,8 @@ public class MainActivity extends AppCompatActivity implements JogoDaVelhaEvento
     private void limparTabuleiro(){
         for(int i=0; i<9 ; i++){
             int btnId = getResources().getIdentifier("btn_"+i, "id", this.getPackageName());
-            Button btn = findViewById(btnId);
-            btn.setText("");
+            ImageView btn = findViewById(btnId);
+            btn.setImageResource(R.drawable.ponto);
         }
     }
 
@@ -64,8 +65,8 @@ public class MainActivity extends AppCompatActivity implements JogoDaVelhaEvento
     @Override
     public void onJogadaRealizada(int posicao, Jogador jogador) {
         int btnId = getResources().getIdentifier("btn_"+posicao, "id", this.getPackageName());
-        Button btn = findViewById(btnId);
-        btn.setText(jogador == Jogador.JOGADOR1?"X":"O");
+        ImageView btn = findViewById(btnId);
+        btn.setImageResource(jogador == Jogador.JOGADOR1?R.drawable.letra_x:R.drawable.letra_o);
     }
 
     @Override

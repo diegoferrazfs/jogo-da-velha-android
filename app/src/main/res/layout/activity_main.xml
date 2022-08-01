@@ -85,18 +85,19 @@
             android:layout_height="match_parent"
             android:layout_weight="1">
 
-            <Button
+            <ImageView
                 android:id="@+id/btn_0"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:insetLeft="0dp"
                 android:insetRight="6dp"
                 android:onClick="jogarClick"
-                android:tag="0"
-                android:text="" />
+                android:src="@drawable/ponto"
+                android:tag="0"/>
 
-            <Button
+            <ImageView
                 android:id="@+id/btn_1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -105,9 +106,10 @@
                 android:insetRight="6dp"
                 android:onClick="jogarClick"
                 android:tag="1"
-                android:text="" />
+                android:src="@drawable/ponto"
+                android:layout_margin="6dp"/>
 
-            <Button
+            <ImageView
                 android:id="@+id/btn_2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -116,7 +118,8 @@
                 android:insetRight="0dp"
                 android:onClick="jogarClick"
                 android:tag="2"
-                android:text="" />
+                android:src="@drawable/ponto"
+                android:layout_margin="6dp"/>
         </TableRow>
 
         <TableRow
@@ -124,7 +127,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1">
 
-            <Button
+            <ImageView
                 android:id="@+id/btn_3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -133,9 +136,10 @@
                 android:insetRight="6dp"
                 android:onClick="jogarClick"
                 android:tag="3"
-                android:text="" />
+                android:src="@drawable/ponto"
+                android:layout_margin="6dp"/>
 
-            <Button
+            <ImageView
                 android:id="@+id/btn_4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -144,9 +148,10 @@
                 android:insetRight="6dp"
                 android:onClick="jogarClick"
                 android:tag="4"
-                android:text="" />
+                android:src="@drawable/ponto"
+                android:layout_margin="6dp"/>
 
-            <Button
+            <ImageView
                 android:id="@+id/btn_5"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -155,7 +160,8 @@
                 android:insetRight="0dp"
                 android:onClick="jogarClick"
                 android:tag="5"
-                android:text="" />
+                android:src="@drawable/ponto"
+                android:layout_margin="6dp"/>
         </TableRow>
 
         <TableRow
@@ -163,7 +169,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1">
 
-            <Button
+            <ImageView
                 android:id="@+id/btn_6"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -172,9 +178,10 @@
                 android:insetRight="6dp"
                 android:onClick="jogarClick"
                 android:tag="6"
-                android:text="" />
+                android:src="@drawable/ponto"
+                android:layout_margin="6dp"/>
 
-            <Button
+            <ImageView
                 android:id="@+id/btn_7"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -183,9 +190,10 @@
                 android:insetRight="6dp"
                 android:onClick="jogarClick"
                 android:tag="7"
-                android:text="" />
+                android:src="@drawable/ponto"
+                android:layout_margin="6dp"/>
 
-            <Button
+            <ImageView
                 android:id="@+id/btn_8"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -194,7 +202,8 @@
                 android:insetRight="0dp"
                 android:onClick="jogarClick"
                 android:tag="8"
-                android:text="" />
+                android:src="@drawable/ponto"
+                android:layout_margin="6dp"/>
         </TableRow>
 
     </TableLayout>
